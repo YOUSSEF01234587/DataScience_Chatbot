@@ -1,0 +1,716 @@
+[
+  {
+    "question_ar": ["ما هو علم البيانات؟","اشرح علم البيانات","يعني ايه Data Science؟","عرف علم البيانات"],
+    "question_en": ["What is data science?","Explain data science","Define data science","Tell me about data science"],
+    "answer_ar": "علم البيانات هو مجال يستخدم الإحصاء والبرمجة لتحليل البيانات واستخراج المعرفة.",
+    "answer_en": "Data Science is a field that uses statistics and programming to analyze data and extract insights."
+  },
+  {
+    "question_ar": ["ما هو التعلم الآلي؟","اشرح تعلم الآلة","يعني ايه Machine Learning؟","عرف التعلم الآلي"],
+    "question_en": ["What is machine learning?","Explain ML","Define machine learning","Tell me about machine learning"],
+    "answer_ar": "تعلم الآلة هو فرع من الذكاء الاصطناعي يسمح للأنظمة بالتعلم من البيانات.",
+    "answer_en": "Machine Learning is a branch of AI that enables systems to learn from data."
+  },
+  {
+    "question_ar": ["ما هو التعلم العميق؟","اشرح التعلم العميق","يعني ايه Deep Learning؟","عرف التعلم العميق"],
+    "question_en": ["What is deep learning?","Explain deep learning","Define deep learning","Tell me about deep learning"],
+    "answer_ar": "التعلم العميق هو فرع من تعلم الآلة يستخدم الشبكات العصبية الاصطناعية الكبيرة.",
+    "answer_en": "Deep Learning is a branch of Machine Learning that uses large artificial neural networks."
+  },
+  {
+    "question_ar": ["ما هي الشبكات العصبية؟","اشرح الشبكات العصبية","يعني ايه Neural Networks؟","عرف الشبكات العصبية"],
+    "question_en": ["What are neural networks?","Explain neural networks","Define neural networks","Tell me about neural networks"],
+    "answer_ar": "الشبكات العصبية هي نماذج مستوحاة من دماغ الإنسان تُستخدم لمعالجة البيانات.",
+    "answer_en": "Neural Networks are models inspired by the human brain used to process data."
+  },
+  {
+    "question_ar": ["ما هو تحليل البيانات؟","اشرح تحليل البيانات","يعني ايه Data Analysis؟","عرف تحليل البيانات"],
+    "question_en": ["What is data analysis?","Explain data analysis","Define data analysis","Tell me about data analysis"],
+    "answer_ar": "تحليل البيانات هو عملية فحص البيانات لاستخراج معلومات مفيدة واتخاذ قرارات.",
+    "answer_en": "Data analysis is the process of examining data to extract useful information and make decisions."
+  },
+  {
+    "question_ar": ["ما هي لغة بايثون؟","اشرح لغة بايثون","Python يعني ايه؟","عرف لغة بايثون"],
+    "question_en": ["What is Python?","Explain Python","Define Python","Tell me about Python"],
+    "answer_ar": "بايثون هي لغة برمجة عالية المستوى تُستخدم في تحليل البيانات والذكاء الاصطناعي.",
+    "answer_en": "Python is a high-level programming language used in data analysis and AI."
+  },
+  {
+    "question_ar": ["ما هي مكتبة Pandas؟","اشرح Pandas","يعني ايه Pandas في بايثون؟","عرف Pandas"],
+    "question_en": ["What is Pandas?","Explain Pandas library","Define Pandas in Python","Tell me about Pandas"],
+    "answer_ar": "Pandas مكتبة بايثون لمعالجة وتحليل البيانات بشكل فعال وسهل.",
+    "answer_en": "Pandas is a Python library for efficient and easy data processing and analysis."
+  },
+  {
+    "question_ar": ["ما هي مكتبة NumPy؟","اشرح NumPy","يعني ايه NumPy في بايثون؟","عرف NumPy"],
+    "question_en": ["What is NumPy?","Explain NumPy library","Define NumPy in Python","Tell me about NumPy"],
+    "answer_ar": "NumPy مكتبة بايثون للتعامل مع المصفوفات والعمليات الحسابية بكفاءة.",
+    "answer_en": "NumPy is a Python library for handling arrays and efficient numerical operations."
+  },
+  {
+    "question_ar": ["ما هو NLP؟","اشرح معالجة اللغة الطبيعية","يعني ايه Natural Language Processing؟","عرف NLP"],
+    "question_en": ["What is NLP?","Explain Natural Language Processing","Define NLP","Tell me about NLP"],
+    "answer_ar": "معالجة اللغة الطبيعية هي فرع من الذكاء الاصطناعي يختص بفهم ومعالجة اللغة البشرية.",
+    "answer_en": "Natural Language Processing is a branch of AI focused on understanding and processing human language."
+  },
+  {
+    "question_ar": ["ما هو تصنيف البيانات؟","اشرح تصنيف البيانات","يعني ايه Data Classification؟","عرف تصنيف البيانات"],
+    "question_en": ["What is data classification?","Explain data classification","Define data classification","Tell me about data classification"],
+    "answer_ar": "تصنيف البيانات هو عملية ترتيب البيانات ضمن فئات محددة.",
+    "answer_en": "Data classification is the process of organizing data into predefined categories."
+  },
+
+   {
+    "question_ar": ["ما هو Clustering؟","اشرح التجميع","يعني ايه Clustering؟","عرف Clustering"],
+    "question_en": ["What is clustering?","Explain clustering","Define clustering","Tell me about clustering"],
+    "answer_ar": "التجميع هو عملية تقسيم البيانات إلى مجموعات متشابهة.",
+    "answer_en": "Clustering is the process of grouping similar data points together."
+  },
+  {
+    "question_ar": ["ما هو K-Means؟","اشرح K-Means","يعني ايه K-Means؟","عرف K-Means"],
+    "question_en": ["What is K-Means?","Explain K-Means clustering","Define K-Means","Tell me about K-Means"],
+    "answer_ar": "K-Means هو خوارزمية لتجميع البيانات في K مجموعات بناءً على القرب من المركز.",
+    "answer_en": "K-Means is an algorithm to cluster data into K groups based on proximity to centroids."
+  },
+  {
+    "question_ar": ["ما هو Regression؟","اشرح الانحدار","يعني ايه Regression؟","عرف Regression"],
+    "question_en": ["What is regression?","Explain regression","Define regression","Tell me about regression"],
+    "answer_ar": "الانحدار هو طريقة لتحليل العلاقة بين متغير تابع ومتغيرات مستقلة.",
+    "answer_en": "Regression is a method to analyze the relationship between a dependent variable and independent variables."
+  },
+  {
+    "question_ar": ["ما هو Classification؟","اشرح التصنيف","يعني ايه Classification؟","عرف Classification"],
+    "question_en": ["What is classification?","Explain classification","Define classification","Tell me about classification"],
+    "answer_ar": "التصنيف هو عملية وضع البيانات ضمن فئات محددة بناءً على خصائصها.",
+    "answer_en": "Classification is the process of placing data into predefined categories based on features."
+  },
+  {
+    "question_ar": ["ما هو Overfitting؟","اشرح Overfitting","يعني ايه Overfitting؟","عرف Overfitting"],
+    "question_en": ["What is overfitting?","Explain overfitting","Define overfitting","Tell me about overfitting"],
+    "answer_ar": "Overfitting يحدث عندما يتعلم النموذج البيانات التدريبية بدقة شديدة ولا يعمم جيداً على بيانات جديدة.",
+    "answer_en": "Overfitting occurs when a model learns the training data too well and fails to generalize to new data."
+  },
+  {
+    "question_ar": ["ما هو Underfitting؟","اشرح Underfitting","يعني ايه Underfitting؟","عرف Underfitting"],
+    "question_en": ["What is underfitting?","Explain underfitting","Define underfitting","Tell me about underfitting"],
+    "answer_ar": "Underfitting يحدث عندما يكون النموذج بسيط جداً ولا يستطيع تعلم الأنماط في البيانات.",
+    "answer_en": "Underfitting occurs when a model is too simple and fails to capture patterns in the data."
+  },
+  {
+    "question_ar": ["ما هو Feature Engineering؟","اشرح هندسة الميزات","يعني ايه Feature Engineering؟","عرف Feature Engineering"],
+    "question_en": ["What is feature engineering?","Explain feature engineering","Define feature engineering","Tell me about feature engineering"],
+    "answer_ar": "هندسة الميزات هي عملية إنشاء وتعديل الميزات لتحسين أداء النموذج.",
+    "answer_en": "Feature engineering is the process of creating and modifying features to improve model performance."
+  },
+  {
+    "question_ar": ["ما هو Data Cleaning؟","اشرح تنظيف البيانات","يعني ايه Data Cleaning؟","عرف Data Cleaning"],
+    "question_en": ["What is data cleaning?","Explain data cleaning","Define data cleaning","Tell me about data cleaning"],
+    "answer_ar": "تنظيف البيانات هو عملية إزالة أو تصحيح البيانات غير الدقيقة أو المفقودة.",
+    "answer_en": "Data cleaning is the process of removing or correcting inaccurate or missing data."
+  },
+  {
+    "question_ar": ["ما هو Data Visualization؟","اشرح تصور البيانات","يعني ايه Data Visualization؟","عرف Data Visualization"],
+    "question_en": ["What is data visualization?","Explain data visualization","Define data visualization","Tell me about data visualization"],
+    "answer_ar": "تصور البيانات هو تمثيل البيانات بصرياً لتسهيل فهمها وتحليلها.",
+    "answer_en": "Data visualization is the visual representation of data to make it easier to understand and analyze."
+  },
+  {
+    "question_ar": ["ما هو PCA؟","اشرح تحليل المكونات الرئيسية","يعني ايه PCA؟","عرف PCA"],
+    "question_en": ["What is PCA?","Explain Principal Component Analysis","Define PCA","Tell me about PCA"],
+    "answer_ar": "PCA هو طريقة لتقليل أبعاد البيانات مع الاحتفاظ بأكبر قدر ممكن من التباين.",
+    "answer_en": "PCA is a method to reduce the dimensionality of data while retaining most of the variance."
+  },
+  {
+    "question_ar": ["ما هي Decision Trees؟","اشرح Decision Trees","يعني ايه Decision Trees؟","عرف Decision Trees"],
+    "question_en": ["What are Decision Trees?","Explain Decision Trees","Define Decision Trees","Tell me about Decision Trees"],
+    "answer_ar": "Decision Trees هي خوارزمية تصنيف أو انحدار تعتمد على تقسيم البيانات عبر أسئلة متتابعة.",
+    "answer_en": "Decision Trees are a classification or regression algorithm that splits data through sequential questions."
+  },
+  {
+    "question_ar": ["ما هي Random Forest؟","اشرح Random Forest","يعني ايه Random Forest؟","عرف Random Forest"],
+    "question_en": ["What is Random Forest?","Explain Random Forest","Define Random Forest","Tell me about Random Forest"],
+    "answer_ar": "Random Forest هي تجميع لعدة Decision Trees لتحسين دقة النموذج وتقليل Overfitting.",
+    "answer_en": "Random Forest is an ensemble of multiple Decision Trees to improve model accuracy and reduce overfitting."
+  },
+  {
+    "question_ar": ["ما هو Gradient Boosting؟","اشرح Gradient Boosting","يعني ايه Gradient Boosting؟","عرف Gradient Boosting"],
+    "question_en": ["What is Gradient Boosting?","Explain Gradient Boosting","Define Gradient Boosting","Tell me about Gradient Boosting"],
+    "answer_ar": "Gradient Boosting هو أسلوب تجميعي لتحسين أداء النماذج عبر تدريب سلسلة من النماذج الضعيفة.",
+    "answer_en": "Gradient Boosting is an ensemble technique to improve model performance by training a series of weak models."
+  },
+  {
+    "question_ar": ["ما هي مصفوفة الالتباس؟","اشرح Confusion Matrix","يعني ايه Confusion Matrix؟","عرف Confusion Matrix"],
+    "question_en": ["What is a confusion matrix?","Explain confusion matrix","Define confusion matrix","Tell me about confusion matrix"],
+    "answer_ar": "مصفوفة الالتباس تظهر عدد التنبؤات الصحيحة والخاطئة لكل فئة في النموذج.",
+    "answer_en": "A confusion matrix shows the number of correct and incorrect predictions for each class in a model."
+  },
+  {
+    "question_ar": ["ما هو Accuracy؟","اشرح Accuracy","يعني ايه Accuracy؟","عرف Accuracy"],
+    "question_en": ["What is accuracy?","Explain accuracy","Define accuracy","Tell me about accuracy"],
+    "answer_ar": "الدقة هي نسبة التنبؤات الصحيحة من إجمالي التنبؤات.",
+    "answer_en": "Accuracy is the ratio of correct predictions to the total number of predictions."
+  },
+  {
+    "question_ar": ["ما هو Precision؟","اشرح Precision","يعني ايه Precision؟","عرف Precision"],
+    "question_en": ["What is precision?","Explain precision","Define precision","Tell me about precision"],
+    "answer_ar": "Precision هو مقياس لمدى صحة التنبؤات الإيجابية.",
+    "answer_en": "Precision is a measure of the correctness of positive predictions."
+  },
+  {
+    "question_ar": ["ما هو Recall؟","اشرح Recall","يعني ايه Recall؟","عرف Recall"],
+    "question_en": ["What is recall?","Explain recall","Define recall","Tell me about recall"],
+    "answer_ar": "Recall هو مقياس لمدى قدرة النموذج على اكتشاف جميع الحالات الإيجابية.",
+    "answer_en": "Recall is a measure of a model's ability to find all positive instances."
+  },
+  {
+    "question_ar": ["ما هو F1-Score؟","اشرح F1-Score","يعني ايه F1-Score؟","عرف F1-Score"],
+    "question_en": ["What is F1-Score?","Explain F1-Score","Define F1-Score","Tell me about F1-Score"],
+    "answer_ar": "F1-Score هو متوسط التوازن بين Precision و Recall.",
+    "answer_en": "F1-Score is the harmonic mean of Precision and Recall."
+  },
+  {
+    "question_ar": ["ما هو Supervised Learning؟","اشرح التعلم الموجه","يعني ايه Supervised Learning؟","عرف Supervised Learning"],
+    "question_en": ["What is supervised learning?","Explain supervised learning","Define supervised learning","Tell me about supervised learning"],
+    "answer_ar": "التعلم الموجه هو نوع تعلم الآلة الذي يتعلم من بيانات تحتوي على تسميات.",
+    "answer_en": "Supervised Learning is a type of machine learning that learns from labeled data."
+  },
+  {
+    "question_ar": ["ما هو Unsupervised Learning؟","اشرح التعلم غير الموجه","يعني ايه Unsupervised Learning؟","عرف Unsupervised Learning"],
+    "question_en": ["What is unsupervised learning?","Explain unsupervised learning","Define unsupervised learning","Tell me about unsupervised learning"],
+    "answer_ar": "التعلم غير الموجه هو نوع تعلم الآلة الذي يتعلم من بيانات غير مصنفة.",
+    "answer_en": "Unsupervised Learning is a type of machine learning that learns from unlabeled data."
+  },
+  {
+    "question_ar": ["ما هو Reinforcement Learning؟","اشرح التعلم التعزيزي","يعني ايه Reinforcement Learning؟","عرف Reinforcement Learning"],
+    "question_en": ["What is reinforcement learning?","Explain reinforcement learning","Define reinforcement learning","Tell me about reinforcement learning"],
+    "answer_ar": "التعلم التعزيزي هو نوع تعلم الآلة الذي يتعلم عبر التجربة والخطأ والحصول على مكافآت.",
+    "answer_en": "Reinforcement Learning is a type of machine learning that learns through trial and error and receiving rewards."
+  },
+
+   {
+    "question_ar": ["ما هو Train/Test Split؟","اشرح Train/Test Split","يعني ايه Train/Test Split؟","عرف Train/Test Split"],
+    "question_en": ["What is train/test split?","Explain train/test split","Define train/test split","Tell me about train/test split"],
+    "answer_ar": "تقسيم البيانات إلى مجموعة تدريب ومجموعة اختبار لتقييم أداء النموذج.",
+    "answer_en": "Splitting data into training and testing sets to evaluate model performance."
+  },
+  {
+    "question_ar": ["ما هو Cross Validation؟","اشرح Cross Validation","يعني ايه Cross Validation؟","عرف Cross Validation"],
+    "question_en": ["What is cross validation?","Explain cross validation","Define cross validation","Tell me about cross validation"],
+    "answer_ar": "Cross Validation طريقة لتقييم النموذج عبر تقسيم البيانات لعدة مجموعات وتجربة النموذج على كل مجموعة.",
+    "answer_en": "Cross Validation is a method to evaluate a model by dividing data into multiple folds and testing on each fold."
+  },
+  {
+    "question_ar": ["ما هو Hyperparameter؟","اشرح Hyperparameter","يعني ايه Hyperparameter؟","عرف Hyperparameter"],
+    "question_en": ["What is a hyperparameter?","Explain hyperparameter","Define hyperparameter","Tell me about hyperparameter"],
+    "answer_ar": "Hyperparameter هو إعداد خارجي للنموذج يتم تحديده قبل التدريب ويؤثر على الأداء.",
+    "answer_en": "A hyperparameter is an external model setting chosen before training that affects performance."
+  },
+  {
+    "question_ar": ["ما هو Learning Rate؟","اشرح Learning Rate","يعني ايه Learning Rate؟","عرف Learning Rate"],
+    "question_en": ["What is learning rate?","Explain learning rate","Define learning rate","Tell me about learning rate"],
+    "answer_ar": "Learning Rate هو مقدار تعديل أوزان النموذج في كل خطوة تعلم.",
+    "answer_en": "Learning rate is the amount by which model weights are updated in each learning step."
+  },
+  {
+    "question_ar": ["ما هو Epoch؟","اشرح Epoch","يعني ايه Epoch؟","عرف Epoch"],
+    "question_en": ["What is an epoch?","Explain epoch","Define epoch","Tell me about epoch"],
+    "answer_ar": "Epoch هو مرور كامل لكل البيانات عبر النموذج مرة واحدة أثناء التدريب.",
+    "answer_en": "An epoch is one complete pass of all training data through the model."
+  },
+  {
+    "question_ar": ["ما هو Batch؟","اشرح Batch","يعني ايه Batch؟","عرف Batch"],
+    "question_en": ["What is a batch?","Explain batch","Define batch","Tell me about batch"],
+    "answer_ar": "Batch هو مجموعة صغيرة من البيانات تُستخدم لتحديث أوزان النموذج في خطوة واحدة.",
+    "answer_en": "A batch is a small set of data used to update model weights in one step."
+  },
+  {
+    "question_ar": ["ما هو Dropout؟","اشرح Dropout","يعني ايه Dropout؟","عرف Dropout"],
+    "question_en": ["What is dropout?","Explain dropout","Define dropout","Tell me about dropout"],
+    "answer_ar": "Dropout تقنية لمنع Overfitting عن طريق تجاهل بعض العقد العشوائية في الشبكة العصبية أثناء التدريب.",
+    "answer_en": "Dropout is a technique to prevent overfitting by randomly ignoring some neurons during training."
+  },
+  {
+    "question_ar": ["ما هو Activation Function؟","اشرح Activation Function","يعني ايه Activation Function؟","عرف Activation Function"],
+    "question_en": ["What is an activation function?","Explain activation function","Define activation function","Tell me about activation function"],
+    "answer_ar": "دالة تفعيلية تُطبق على مخرجات كل خلية عصبية لتحديد إشارة الإرسال للطبقة التالية.",
+    "answer_en": "An activation function is applied to the output of each neuron to determine the signal passed to the next layer."
+  },
+  {
+    "question_ar": ["ما هي ReLU؟","اشرح ReLU","يعني ايه ReLU؟","عرف ReLU"],
+    "question_en": ["What is ReLU?","Explain ReLU","Define ReLU","Tell me about ReLU"],
+    "answer_ar": "ReLU دالة تفعيلية تُعيد صفر إذا كانت القيمة سالبة، والقيمة نفسها إذا كانت موجبة.",
+    "answer_en": "ReLU is an activation function that returns zero for negative inputs and the input itself for positive values."
+  },
+  {
+    "question_ar": ["ما هي Sigmoid؟","اشرح Sigmoid","يعني ايه Sigmoid؟","عرف Sigmoid"],
+    "question_en": ["What is Sigmoid?","Explain Sigmoid","Define Sigmoid","Tell me about Sigmoid"],
+    "answer_ar": "Sigmoid دالة تفعيلية تُحوّل القيم إلى نطاق بين 0 و 1.",
+    "answer_en": "Sigmoid is an activation function that maps values to a range between 0 and 1."
+  },
+  {
+    "question_ar": ["ما هي Softmax؟","اشرح Softmax","يعني ايه Softmax؟","عرف Softmax"],
+    "question_en": ["What is Softmax?","Explain Softmax","Define Softmax","Tell me about Softmax"],
+    "answer_ar": "Softmax دالة تفعيلية تُحوّل المخرجات إلى احتمالات لجميع الفئات الممكنة.",
+    "answer_en": "Softmax is an activation function that converts outputs into probabilities for all possible classes."
+  },
+  {
+    "question_ar": ["ما هو Confusion Matrix؟","اشرح مصفوفة الالتباس","يعني ايه Confusion Matrix؟","عرف Confusion Matrix"],
+    "question_en": ["What is confusion matrix?","Explain confusion matrix","Define confusion matrix","Tell me about confusion matrix"],
+    "answer_ar": "مصفوفة الالتباس تعرض عدد التوقعات الصحيحة والخاطئة لكل فئة.",
+    "answer_en": "A confusion matrix shows the number of correct and incorrect predictions for each class."
+  },
+  {
+    "question_ar": ["ما هو ROC Curve؟","اشرح ROC Curve","يعني ايه ROC Curve؟","عرف ROC Curve"],
+    "question_en": ["What is ROC curve?","Explain ROC curve","Define ROC curve","Tell me about ROC curve"],
+    "answer_ar": "ROC Curve منحنى يُظهر أداء النموذج عبر قيم مختلفة من Threshold.",
+    "answer_en": "ROC Curve is a plot showing model performance across different threshold values."
+  },
+
+  {
+    "question_ar": ["ما هو Accuracy؟","اشرح Accuracy","يعني ايه Accuracy؟","عرف Accuracy"],
+    "question_en": ["What is accuracy?","Explain accuracy","Define accuracy","Tell me about accuracy"],
+    "answer_ar": "الدقة هي نسبة التوقعات الصحيحة إلى إجمالي التوقعات.",
+    "answer_en": "Accuracy is the ratio of correct predictions to the total number of predictions."
+  },
+  {
+    "question_ar": ["ما هو Precision؟","اشرح Precision","يعني ايه Precision؟","عرف Precision"],
+    "question_en": ["What is precision?","Explain precision","Define precision","Tell me about precision"],
+    "answer_ar": "الدقة هي نسبة التوقعات الصحيحة من بين جميع التوقعات الإيجابية.",
+    "answer_en": "Precision is the ratio of correct positive predictions to all positive predictions."
+  },
+  {
+    "question_ar": ["ما هو Recall؟","اشرح Recall","يعني ايه Recall؟","عرف Recall"],
+    "question_en": ["What is recall?","Explain recall","Define recall","Tell me about recall"],
+    "answer_ar": "الاستدعاء هو نسبة التوقعات الصحيحة الإيجابية إلى جميع الحالات الإيجابية الفعلية.",
+    "answer_en": "Recall is the ratio of correct positive predictions to all actual positive cases."
+  },
+  {
+    "question_ar": ["ما هو F1-Score؟","اشرح F1-Score","يعني ايه F1-Score؟","عرف F1-Score"],
+    "question_en": ["What is F1-Score?","Explain F1-Score","Define F1-Score","Tell me about F1-Score"],
+    "answer_ar": "F1-Score هو المتوسط التوافقي بين Precision و Recall.",
+    "answer_en": "F1-Score is the harmonic mean of Precision and Recall."
+  },
+  {
+    "question_ar": ["ما هو Decision Tree؟","اشرح Decision Tree","يعني ايه Decision Tree؟","عرف Decision Tree"],
+    "question_en": ["What is a decision tree?","Explain decision tree","Define decision tree","Tell me about decision tree"],
+    "answer_ar": "شجرة القرار هي نموذج يعتمد على تقسيم البيانات باستخدام شروط متتالية لاتخاذ القرار.",
+    "answer_en": "A decision tree is a model that splits data using sequential rules to make decisions."
+  },
+  {
+    "question_ar": ["ما هو Random Forest؟","اشرح Random Forest","يعني ايه Random Forest؟","عرف Random Forest"],
+    "question_en": ["What is random forest?","Explain random forest","Define random forest","Tell me about random forest"],
+    "answer_ar": "Random Forest هو تجميع لعدة أشجار قرار لتحسين الدقة وتقليل Overfitting.",
+    "answer_en": "Random Forest is an ensemble of multiple decision trees to improve accuracy and reduce overfitting."
+  },
+  {
+    "question_ar": ["ما هو Gradient Boosting؟","اشرح Gradient Boosting","يعني ايه Gradient Boosting؟","عرف Gradient Boosting"],
+    "question_en": ["What is gradient boosting?","Explain gradient boosting","Define gradient boosting","Tell me about gradient boosting"],
+    "answer_ar": "Gradient Boosting هو خوارزمية تبني نماذج متتالية لتقليل الخطأ تدريجياً.",
+    "answer_en": "Gradient Boosting is an algorithm that builds sequential models to gradually reduce error."
+  },
+  {
+    "question_ar": ["ما هو K-Means؟","اشرح K-Means","يعني ايه K-Means؟","عرف K-Means"],
+    "question_en": ["What is K-Means?","Explain K-Means","Define K-Means","Tell me about K-Means"],
+    "answer_ar": "K-Means هو خوارزمية تجميع تقسّم البيانات إلى K مجموعات بناءً على التشابه.",
+    "answer_en": "K-Means is a clustering algorithm that divides data into K groups based on similarity."
+  },
+  {
+    "question_ar": ["ما هو PCA؟","اشرح PCA","يعني ايه PCA؟","عرف PCA"],
+    "question_en": ["What is PCA?","Explain PCA","Define PCA","Tell me about PCA"],
+    "answer_ar": "PCA هي تقنية لتقليل الأبعاد مع الحفاظ على أكبر قدر من التباين في البيانات.",
+    "answer_en": "PCA (Principal Component Analysis) is a technique to reduce dimensions while retaining most variance."
+  },
+  {
+    "question_ar": ["ما هو Supervised Learning؟","اشرح Supervised Learning","يعني ايه Supervised Learning؟","عرف Supervised Learning"],
+    "question_en": ["What is supervised learning?","Explain supervised learning","Define supervised learning","Tell me about supervised learning"],
+    "answer_ar": "Supervised Learning هو تعلم يعتمد على بيانات مدخلة ومخرجات معروفة لتعليم النموذج.",
+    "answer_en": "Supervised Learning is learning from input data with known outputs to train the model."
+  },
+  {
+    "question_ar": ["ما هو Unsupervised Learning؟","اشرح Unsupervised Learning","يعني ايه Unsupervised Learning؟","عرف Unsupervised Learning"],
+    "question_en": ["What is unsupervised learning?","Explain unsupervised learning","Define unsupervised learning","Tell me about unsupervised learning"],
+    "answer_ar": "Unsupervised Learning هو تعلم يعتمد على بيانات بدون مخرجات معرفة لاكتشاف الأنماط.",
+    "answer_en": "Unsupervised Learning is learning from data without known outputs to discover patterns."
+  },
+  {
+    "question_ar": ["ما هو Reinforcement Learning؟","اشرح Reinforcement Learning","يعني ايه Reinforcement Learning؟","عرف Reinforcement Learning"],
+    "question_en": ["What is reinforcement learning?","Explain reinforcement learning","Define reinforcement learning","Tell me about reinforcement learning"],
+    "answer_ar": "Reinforcement Learning هو تعلم يعتمد على مكافآت وعقوبات لتعليم النموذج اتخاذ القرارات.",
+    "answer_en": "Reinforcement Learning is learning based on rewards and penalties to teach the model to make decisions."
+  },
+
+   {
+    "question_ar": ["ما هو Data Preprocessing؟","اشرح تجهيز البيانات","يعني ايه Data Preprocessing؟","عرف Data Preprocessing"],
+    "question_en": ["What is data preprocessing?","Explain data preprocessing","Define data preprocessing","Tell me about data preprocessing"],
+    "answer_ar": "تجهيز البيانات هو عملية تنظيف وتحويل البيانات قبل إدخالها للنموذج لتحسين الأداء.",
+    "answer_en": "Data preprocessing is the process of cleaning and transforming data before feeding it into a model to improve performance."
+  },
+  {
+    "question_ar": ["ما هو Feature Selection؟","اشرح اختيار الميزات","يعني ايه Feature Selection؟","عرف Feature Selection"],
+    "question_en": ["What is feature selection?","Explain feature selection","Define feature selection","Tell me about feature selection"],
+    "answer_ar": "اختيار الميزات هو تحديد أهم المتغيرات التي تؤثر على النموذج لتقليل التعقيد وزيادة الدقة.",
+    "answer_en": "Feature selection is identifying the most important variables that affect the model to reduce complexity and improve accuracy."
+  },
+  {
+    "question_ar": ["ما هو Feature Scaling؟","اشرح مقياس الميزات","يعني ايه Feature Scaling؟","عرف Feature Scaling"],
+    "question_en": ["What is feature scaling?","Explain feature scaling","Define feature scaling","Tell me about feature scaling"],
+    "answer_ar": "مقياس الميزات هو تحويل القيم الرقمية لمقياس موحد لتسريع تعلم النموذج.",
+    "answer_en": "Feature scaling is transforming numerical values to a common scale to speed up model learning."
+  },
+  {
+    "question_ar": ["ما هو Cross Validation؟","اشرح التحقق المتقاطع","يعني ايه Cross Validation؟","عرف Cross Validation"],
+    "question_en": ["What is cross validation?","Explain cross validation","Define cross validation","Tell me about cross validation"],
+    "answer_ar": "التحقق المتقاطع هو تقنية لتقييم أداء النموذج على أجزاء مختلفة من البيانات لتجنب Overfitting.",
+    "answer_en": "Cross validation is a technique to evaluate model performance on different data subsets to avoid overfitting."
+  },
+  {
+    "question_ar": ["ما هي مصفوفة الالتباس؟","اشرح مصفوفة الالتباس","يعني ايه Confusion Matrix؟","عرف Confusion Matrix"],
+    "question_en": ["What is a confusion matrix?","Explain confusion matrix","Define confusion matrix","Tell me about confusion matrix"],
+    "answer_ar": "مصفوفة الالتباس توضح عدد التوقعات الصحيحة والخاطئة لكل فئة في النموذج.",
+    "answer_en": "A confusion matrix shows the number of correct and incorrect predictions for each class in the model."
+  },
+  {
+    "question_ar": ["ما هو Logistic Regression؟","اشرح الانحدار اللوجستي","يعني ايه Logistic Regression؟","عرف Logistic Regression"],
+    "question_en": ["What is logistic regression?","Explain logistic regression","Define logistic regression","Tell me about logistic regression"],
+    "answer_ar": "الانحدار اللوجستي هو نموذج يستخدم لتوقع الاحتمالات وتصنيف البيانات الثنائية.",
+    "answer_en": "Logistic regression is a model used to predict probabilities and classify binary data."
+  },
+  {
+    "question_ar": ["ما هو Support Vector Machine؟","اشرح SVM","يعني ايه SVM؟","عرف Support Vector Machine"],
+    "question_en": ["What is a support vector machine?","Explain SVM","Define SVM","Tell me about SVM"],
+    "answer_ar": "آلة الدعم الناقل هي نموذج تصنيف يستخدم حدودًا فاصلة لتحسين الفصل بين الفئات.",
+    "answer_en": "Support Vector Machine (SVM) is a classification model that uses separating boundaries to improve class separation."
+  },
+  {
+    "question_ar": ["ما هو K-Nearest Neighbors؟","اشرح KNN","يعني ايه KNN؟","عرف K-Nearest Neighbors"],
+    "question_en": ["What is K-Nearest Neighbors?","Explain KNN","Define KNN","Tell me about KNN"],
+    "answer_ar": "KNN هو نموذج يصنف البيانات بناءً على أقرب الجيران في فضاء الخصائص.",
+    "answer_en": "K-Nearest Neighbors (KNN) classifies data based on the closest neighbors in feature space."
+  },
+  {
+    "question_ar": ["ما هو Epoch في التعلم العميق؟","اشرح Epoch","يعني ايه Epoch؟","عرف Epoch في Deep Learning"],
+    "question_en": ["What is an epoch in deep learning?","Explain epoch","Define epoch","Tell me about epoch in deep learning"],
+    "answer_ar": "Epoch هو دورة واحدة تمر بها جميع بيانات التدريب خلال الشبكة العصبية.",
+    "answer_en": "An epoch is one complete pass of the entire training dataset through the neural network."
+  },
+  {
+    "question_ar": ["ما هو Batch Size في التعلم العميق؟","اشرح Batch Size","يعني ايه Batch Size؟","عرف Batch Size"],
+    "question_en": ["What is batch size in deep learning?","Explain batch size","Define batch size","Tell me about batch size"],
+    "answer_ar": "Batch Size هو عدد العينات التي تتم معالجتها قبل تحديث أوزان النموذج.",
+    "answer_en": "Batch size is the number of samples processed before updating the model's weights."
+  },
+  {
+    "question_ar": ["ما هو Learning Rate؟","اشرح Learning Rate","يعني ايه Learning Rate؟","عرف Learning Rate"],
+    "question_en": ["What is learning rate?","Explain learning rate","Define learning rate","Tell me about learning rate"],
+    "answer_ar": "Learning Rate هو معدل تعديل أوزان النموذج أثناء التدريب.",
+    "answer_en": "Learning rate is the rate at which model weights are updated during training."
+  },
+  {
+    "question_ar": ["ما هو Dropout في التعلم العميق؟","اشرح Dropout","يعني ايه Dropout؟","عرف Dropout"],
+    "question_en": ["What is dropout in deep learning?","Explain dropout","Define dropout","Tell me about dropout"],
+    "answer_ar": "Dropout هو تقنية لإيقاف بعض الخلايا العصبية عشوائياً أثناء التدريب لتقليل Overfitting.",
+    "answer_en": "Dropout is a technique to randomly deactivate some neurons during training to reduce overfitting."
+  },
+  {
+    "question_ar": ["ما هو Batch Normalization؟","اشرح Batch Normalization","يعني ايه Batch Normalization؟","عرف Batch Normalization"],
+    "question_en": ["What is batch normalization?","Explain batch normalization","Define batch normalization","Tell me about batch normalization"],
+    "answer_ar": "Batch Normalization هو تقنية لتسريع التدريب وتحسين استقرار الشبكات العصبية عبر تطبيع القيم.",
+    "answer_en": "Batch normalization is a technique to speed up training and improve neural network stability by normalizing values."
+  },
+  {
+    "question_ar": ["ما هو Activation Function؟","اشرح Activation Function","يعني ايه Activation Function؟","عرف Activation Function"],
+    "question_en": ["What is an activation function?","Explain activation function","Define activation function","Tell me about activation function"],
+    "answer_ar": "دالة التفعيل تحدد إذا كان الخلية العصبية ستنشط لإرسال إشارة.",
+    "answer_en": "An activation function determines whether a neuron will activate to send a signal."
+  },
+
+  {
+    "question_ar": ["ما هو Clustering؟","اشرح التجميع","يعني ايه Clustering؟","عرف Clustering"],
+    "question_en": ["What is clustering?","Explain clustering","Define clustering","Tell me about clustering"],
+    "answer_ar": "التجميع هو عملية تقسيم البيانات إلى مجموعات متشابهة.",
+    "answer_en": "Clustering is the process of grouping similar data points together."
+  },
+  {
+    "question_ar": ["ما هو K-Means؟","اشرح K-Means","يعني ايه K-Means؟","عرف K-Means"],
+    "question_en": ["What is K-Means?","Explain K-Means","Define K-Means","Tell me about K-Means"],
+    "answer_ar": "K-Means هو خوارزمية لتقسيم البيانات إلى K مجموعة متقاربة.",
+    "answer_en": "K-Means is an algorithm to partition data into K clusters of similar points."
+  },
+  {
+    "question_ar": ["ما هو Decision Tree؟","اشرح Decision Tree","يعني ايه Decision Tree؟","عرف Decision Tree"],
+    "question_en": ["What is Decision Tree?","Explain Decision Tree","Define Decision Tree","Tell me about Decision Tree"],
+    "answer_ar": "Decision Tree هي خوارزمية لتصنيف البيانات على شكل شجرة قرارات.",
+    "answer_en": "Decision Tree is an algorithm that classifies data using a tree-like model of decisions."
+  },
+  {
+    "question_ar": ["ما هو Random Forest؟","اشرح Random Forest","يعني ايه Random Forest؟","عرف Random Forest"],
+    "question_en": ["What is Random Forest?","Explain Random Forest","Define Random Forest","Tell me about Random Forest"],
+    "answer_ar": "Random Forest هي مجموعة من Decision Trees تُستخدم لتحسين دقة التصنيف أو الانحدار.",
+    "answer_en": "Random Forest is a collection of Decision Trees used to improve classification or regression accuracy."
+  },
+  {
+    "question_ar": ["ما هو Gradient Boosting؟","اشرح Gradient Boosting","يعني ايه Gradient Boosting؟","عرف Gradient Boosting"],
+    "question_en": ["What is Gradient Boosting?","Explain Gradient Boosting","Define Gradient Boosting","Tell me about Gradient Boosting"],
+    "answer_ar": "Gradient Boosting هي طريقة لتقوية نماذج ضعيفة تدريجيًا للحصول على نموذج قوي.",
+    "answer_en": "Gradient Boosting is a method of gradually improving weak models to form a strong predictive model."
+  },
+  {
+    "question_ar": ["ما هو PCA؟","اشرح PCA","يعني ايه PCA؟","عرف PCA"],
+    "question_en": ["What is PCA?","Explain PCA","Define PCA","Tell me about PCA"],
+    "answer_ar": "PCA أو التحليل إلى المركبات الرئيسية يُستخدم لتقليل الأبعاد في البيانات.",
+    "answer_en": "PCA (Principal Component Analysis) is used to reduce the dimensionality of data."
+  },
+  {
+    "question_ar": ["ما هو Supervised Learning؟","اشرح التعلم المراقب","يعني ايه Supervised Learning؟","عرف Supervised Learning"],
+    "question_en": ["What is Supervised Learning?","Explain Supervised Learning","Define Supervised Learning","Tell me about Supervised Learning"],
+    "answer_ar": "Supervised Learning هو نوع من التعلم الآلي يعتمد على بيانات مُصنفة مسبقًا.",
+    "answer_en": "Supervised Learning is a type of machine learning that relies on labeled training data."
+  },
+  {
+    "question_ar": ["ما هو Unsupervised Learning؟","اشرح التعلم غير المراقب","يعني ايه Unsupervised Learning؟","عرف Unsupervised Learning"],
+    "question_en": ["What is Unsupervised Learning?","Explain Unsupervised Learning","Define Unsupervised Learning","Tell me about Unsupervised Learning"],
+    "answer_ar": "Unsupervised Learning هو نوع من التعلم الآلي لا يعتمد على بيانات مصنفة ويبحث عن أنماط في البيانات.",
+    "answer_en": "Unsupervised Learning is a type of machine learning that does not use labeled data and finds patterns in data."
+  },
+  {
+    "question_ar": ["ما هو Reinforcement Learning؟","اشرح التعلم التعزيزي","يعني ايه Reinforcement Learning؟","عرف Reinforcement Learning"],
+    "question_en": ["What is Reinforcement Learning?","Explain Reinforcement Learning","Define Reinforcement Learning","Tell me about Reinforcement Learning"],
+    "answer_ar": "Reinforcement Learning هو تعلم يعتمد على المكافآت والعقوبات لتدريب النموذج.",
+    "answer_en": "Reinforcement Learning is learning that relies on rewards and penalties to train a model."
+  },
+  {
+    "question_ar": ["ما هي مصفوفة الالتباس؟","اشرح Confusion Matrix","يعني ايه Confusion Matrix؟","عرف مصفوفة الالتباس"],
+    "question_en": ["What is a Confusion Matrix?","Explain Confusion Matrix","Define Confusion Matrix","Tell me about Confusion Matrix"],
+    "answer_ar": "مصفوفة الالتباس تعرض عدد التنبؤات الصحيحة والخاطئة لكل فئة في النموذج.",
+    "answer_en": "A Confusion Matrix shows the number of correct and incorrect predictions for each class in a model."
+  },
+  {
+    "question_ar": ["ما هو Accuracy؟","اشرح دقة النموذج","يعني ايه Accuracy؟","عرف Accuracy"],
+    "question_en": ["What is Accuracy?","Explain Accuracy","Define Accuracy","Tell me about Accuracy"],
+    "answer_ar": "Accuracy هو مقياس يوضح نسبة التنبؤات الصحيحة من إجمالي التنبؤات.",
+    "answer_en": "Accuracy is a metric that shows the proportion of correct predictions out of total predictions."
+  },
+  {
+    "question_ar": ["ما هو Precision؟","اشرح Precision","يعني ايه Precision؟","عرف Precision"],
+    "question_en": ["What is Precision?","Explain Precision","Define Precision","Tell me about Precision"],
+    "answer_ar": "Precision هو مقياس دقة النموذج في تصنيف العناصر الإيجابية بشكل صحيح.",
+    "answer_en": "Precision is a metric that measures the accuracy of correctly predicted positive instances."
+  },
+  {
+    "question_ar": ["ما هو Recall؟","اشرح Recall","يعني ايه Recall؟","عرف Recall"],
+    "question_en": ["What is Recall?","Explain Recall","Define Recall","Tell me about Recall"],
+    "answer_ar": "Recall هو مقياس قدرة النموذج على اكتشاف جميع العناصر الإيجابية.",
+    "answer_en": "Recall is a metric that measures the ability of a model to find all positive instances."
+  },
+  {
+    "question_ar": ["ما هو F1-Score؟","اشرح F1-Score","يعني ايه F1-Score؟","عرف F1-Score"],
+    "question_en": ["What is F1-Score?","Explain F1-Score","Define F1-Score","Tell me about F1-Score"],
+    "answer_ar": "F1-Score هو مقياس يوازن بين Precision و Recall لتقييم النموذج.",
+    "answer_en": "F1-Score is a metric that balances Precision and Recall to evaluate a model."
+  },
+  {
+    "question_ar": ["ما هي CNN؟","اشرح CNN","يعني ايه CNN؟","عرف CNN"],
+    "question_en": ["What is CNN?","Explain CNN","Define CNN","Tell me about CNN"],
+    "answer_ar": "CNN أو الشبكات العصبية الالتفافية تُستخدم بشكل أساسي في تحليل الصور والفيديو.",
+    "answer_en": "CNN (Convolutional Neural Networks) are mainly used for analyzing images and videos."
+  },
+  {
+    "question_ar": ["ما هي RNN؟","اشرح RNN","يعني ايه RNN؟","عرف RNN"],
+    "question_en": ["What is RNN?","Explain RNN","Define RNN","Tell me about RNN"],
+    "answer_ar": "RNN أو الشبكات العصبية العودية تُستخدم لمعالجة البيانات التسلسلية مثل النصوص أو السلاسل الزمنية.",
+    "answer_en": "RNN (Recurrent Neural Networks) are used to process sequential data such as text or time series."
+  },
+  {
+    "question_ar": ["ما هي LSTM؟","اشرح LSTM","يعني ايه LSTM؟","عرف LSTM"],
+    "question_en": ["What is LSTM?","Explain LSTM","Define LSTM","Tell me about LSTM"],
+    "answer_ar": "LSTM نوع من RNN قادر على تذكر المعلومات لفترات طويلة في البيانات التسلسلية.",
+    "answer_en": "LSTM is a type of RNN that can remember information over long sequences in sequential data."
+  },
+
+   {
+    "question_ar": ["ما هو AutoML؟","اشرح AutoML","يعني ايه AutoML؟","عرف AutoML"],
+    "question_en": ["What is AutoML?","Explain AutoML","Define AutoML","Tell me about AutoML"],
+    "answer_ar": "AutoML هو أتمتة عملية بناء نماذج تعلم الآلة لتسهيل استخدامه للمبتدئين.",
+    "answer_en": "AutoML automates the process of building machine learning models to make it easier for beginners."
+  },
+  {
+    "question_ar": ["ما هو Hyperparameter؟","اشرح Hyperparameter","يعني ايه Hyperparameter؟","عرف Hyperparameter"],
+    "question_en": ["What is Hyperparameter?","Explain Hyperparameter","Define Hyperparameter","Tell me about Hyperparameter"],
+    "answer_ar": "Hyperparameter هو إعداد يُحدد قبل تدريب النموذج ويؤثر على أدائه.",
+    "answer_en": "A Hyperparameter is a setting specified before training a model that affects its performance."
+  },
+  {
+    "question_ar": ["ما هو Feature Selection؟","اشرح Feature Selection","يعني ايه Feature Selection؟","عرف Feature Selection"],
+    "question_en": ["What is Feature Selection?","Explain Feature Selection","Define Feature Selection","Tell me about Feature Selection"],
+    "answer_ar": "Feature Selection هي عملية اختيار أهم الميزات لتحسين أداء النموذج وتقليل التعقيد.",
+    "answer_en": "Feature Selection is the process of selecting the most important features to improve model performance and reduce complexity."
+  },
+  {
+    "question_ar": ["ما هو Feature Scaling؟","اشرح Feature Scaling","يعني ايه Feature Scaling؟","عرف Feature Scaling"],
+    "question_en": ["What is Feature Scaling?","Explain Feature Scaling","Define Feature Scaling","Tell me about Feature Scaling"],
+    "answer_ar": "Feature Scaling هو تحويل الميزات إلى نفس المقياس لتسهيل تدريب النموذج.",
+    "answer_en": "Feature Scaling is transforming features to the same scale to facilitate model training."
+  },
+  {
+    "question_ar": ["ما هو Cross Validation؟","اشرح Cross Validation","يعني ايه Cross Validation؟","عرف Cross Validation"],
+    "question_en": ["What is Cross Validation?","Explain Cross Validation","Define Cross Validation","Tell me about Cross Validation"],
+    "answer_ar": "Cross Validation هو طريقة لتقييم النموذج باستخدام تقسيم البيانات إلى مجموعات متعددة.",
+    "answer_en": "Cross Validation is a method for evaluating a model by splitting the data into multiple subsets."
+  },
+  {
+    "question_ar": ["ما هو Bias؟","اشرح Bias","يعني ايه Bias؟","عرف Bias"],
+    "question_en": ["What is Bias?","Explain Bias","Define Bias","Tell me about Bias"],
+    "answer_ar": "Bias هو الخطأ الناتج عن تبسيط النموذج بشكل مفرط ولا يعكس البيانات بشكل جيد.",
+    "answer_en": "Bias is the error resulting from oversimplifying a model and not capturing the data well."
+  },
+  {
+    "question_ar": ["ما هو Variance؟","اشرح Variance","يعني ايه Variance؟","عرف Variance"],
+    "question_en": ["What is Variance?","Explain Variance","Define Variance","Tell me about Variance"],
+    "answer_ar": "Variance هو خطأ النموذج الناتج عن حساسيتها العالية للتغيرات في بيانات التدريب.",
+    "answer_en": "Variance is the error resulting from a model being too sensitive to training data variations."
+  },
+  {
+    "question_ar": ["ما هو Bias-Variance Tradeoff؟","اشرح Bias-Variance Tradeoff","يعني ايه Bias-Variance Tradeoff؟","عرف Bias-Variance Tradeoff"],
+    "question_en": ["What is Bias-Variance Tradeoff?","Explain Bias-Variance Tradeoff","Define Bias-Variance Tradeoff","Tell me about Bias-Variance Tradeoff"],
+    "answer_ar": "Bias-Variance Tradeoff هو الموازنة بين خطأ التحيز والخطأ الناتج عن التباين للوصول إلى أفضل نموذج.",
+    "answer_en": "Bias-Variance Tradeoff is the balance between bias error and variance error to achieve the best model."
+  },
+  {
+    "question_ar": ["ما هو One-Hot Encoding؟","اشرح One-Hot Encoding","يعني ايه One-Hot Encoding؟","عرف One-Hot Encoding"],
+    "question_en": ["What is One-Hot Encoding?","Explain One-Hot Encoding","Define One-Hot Encoding","Tell me about One-Hot Encoding"],
+    "answer_ar": "One-Hot Encoding هي طريقة لتحويل البيانات التصنيفية إلى شكل رقمي يمكن للنموذج التعامل معه.",
+    "answer_en": "One-Hot Encoding is a method to convert categorical data into a numeric format usable by models."
+  },
+  {
+    "question_ar": ["ما هو Label Encoding؟","اشرح Label Encoding","يعني ايه Label Encoding؟","عرف Label Encoding"],
+    "question_en": ["What is Label Encoding?","Explain Label Encoding","Define Label Encoding","Tell me about Label Encoding"],
+    "answer_ar": "Label Encoding هي تحويل الفئات إلى أرقام صحيحة لتمثيل البيانات التصنيفية.",
+    "answer_en": "Label Encoding converts categories into integers to represent categorical data."
+  },
+
+    {
+    "question_ar": ["ما هو K-Means؟","اشرح K-Means","يعني ايه K-Means؟","عرف K-Means"],
+    "question_en": ["What is K-Means?","Explain K-Means","Define K-Means","Tell me about K-Means"],
+    "answer_ar": "K-Means هو خوارزمية لتجميع البيانات في مجموعات متشابهة بناءً على القرب من مركز كل مجموعة.",
+    "answer_en": "K-Means is an algorithm that clusters data into similar groups based on the distance to the center of each cluster."
+  },
+  {
+    "question_ar": ["ما هو PCA؟","اشرح PCA","يعني ايه PCA؟","عرف PCA"],
+    "question_en": ["What is PCA?","Explain PCA","Define PCA","Tell me about PCA"],
+    "answer_ar": "PCA أو التحليل المكون الرئيسي هو تقنية لتقليل أبعاد البيانات مع الحفاظ على أكبر قدر من المعلومات.",
+    "answer_en": "PCA (Principal Component Analysis) is a technique to reduce data dimensionality while preserving as much information as possible."
+  },
+  {
+    "question_ar": ["ما هو Decision Tree؟","اشرح Decision Tree","يعني ايه Decision Tree؟","عرف Decision Tree"],
+    "question_en": ["What is Decision Tree?","Explain Decision Tree","Define Decision Tree","Tell me about Decision Tree"],
+    "answer_ar": "Decision Tree هو نموذج يستخدم شجرة قرارات لتصنيف أو التنبؤ بالبيانات.",
+    "answer_en": "Decision Tree is a model that uses a decision tree structure to classify or predict data."
+  },
+  {
+    "question_ar": ["ما هو Random Forest؟","اشرح Random Forest","يعني ايه Random Forest؟","عرف Random Forest"],
+    "question_en": ["What is Random Forest?","Explain Random Forest","Define Random Forest","Tell me about Random Forest"],
+    "answer_ar": "Random Forest هو تجميع لعدة أشجار قرار لتحسين دقة التنبؤ وتقليل Overfitting.",
+    "answer_en": "Random Forest is an ensemble of decision trees that improves prediction accuracy and reduces overfitting."
+  },
+  {
+    "question_ar": ["ما هو Gradient Boosting؟","اشرح Gradient Boosting","يعني ايه Gradient Boosting؟","عرف Gradient Boosting"],
+    "question_en": ["What is Gradient Boosting?","Explain Gradient Boosting","Define Gradient Boosting","Tell me about Gradient Boosting"],
+    "answer_ar": "Gradient Boosting هو طريقة لتدريب نماذج متتابعة حيث يحاول كل نموذج تصحيح أخطاء النموذج السابق.",
+    "answer_en": "Gradient Boosting is a method of training sequential models where each model tries to correct the errors of the previous one."
+  },
+  {
+    "question_ar": ["ما هو Support Vector Machine؟","اشرح SVM","يعني ايه SVM؟","عرف Support Vector Machine"],
+    "question_en": ["What is Support Vector Machine?","Explain SVM","Define SVM","Tell me about SVM"],
+    "answer_ar": "SVM هو نموذج تصنيف يحاول إيجاد أفضل خط فاصل بين الفئات في البيانات.",
+    "answer_en": "SVM (Support Vector Machine) is a classification model that finds the best separating line between classes in the data."
+  },
+  {
+    "question_ar": ["ما هو Logistic Regression؟","اشرح Logistic Regression","يعني ايه Logistic Regression؟","عرف Logistic Regression"],
+    "question_en": ["What is Logistic Regression?","Explain Logistic Regression","Define Logistic Regression","Tell me about Logistic Regression"],
+    "answer_ar": "Logistic Regression هو نموذج يستخدم للتنبؤ بالاحتمالات للفئات الثنائية.",
+    "answer_en": "Logistic Regression is a model used to predict probabilities for binary classes."
+  },
+  {
+    "question_ar": ["ما هو Linear Regression؟","اشرح Linear Regression","يعني ايه Linear Regression؟","عرف Linear Regression"],
+    "question_en": ["What is Linear Regression?","Explain Linear Regression","Define Linear Regression","Tell me about Linear Regression"],
+    "answer_ar": "Linear Regression هو نموذج للتنبؤ بقيم عددية عن طريق إيجاد علاقة خطية بين المتغيرات.",
+    "answer_en": "Linear Regression is a model to predict numerical values by finding a linear relationship between variables."
+  },
+  {
+    "question_ar": ["ما هو Confusion Matrix؟","اشرح Confusion Matrix","يعني ايه Confusion Matrix؟","عرف Confusion Matrix"],
+    "question_en": ["What is Confusion Matrix?","Explain Confusion Matrix","Define Confusion Matrix","Tell me about Confusion Matrix"],
+    "answer_ar": "Confusion Matrix هي جدول يوضح عدد التنبؤات الصحيحة والخاطئة لكل فئة في النموذج.",
+    "answer_en": "A Confusion Matrix is a table that shows the number of correct and incorrect predictions for each class in a model."
+  },
+  {
+    "question_ar": ["ما هو Accuracy؟","اشرح Accuracy","يعني ايه Accuracy؟","عرف Accuracy"],
+    "question_en": ["What is Accuracy?","Explain Accuracy","Define Accuracy","Tell me about Accuracy"],
+    "answer_ar": "Accuracy هو مقياس لمدى صحة التنبؤات بالنسبة لجميع البيانات.",
+    "answer_en": "Accuracy is a metric that measures the correctness of predictions over all data."
+  },
+
+  {
+    "question_ar": ["ما هو Precision؟","اشرح Precision","يعني ايه Precision؟","عرف Precision"],
+    "question_en": ["What is Precision?","Explain Precision","Define Precision","Tell me about Precision"],
+    "answer_ar": "Precision هو مقياس يوضح نسبة التنبؤات الصحيحة الإيجابية من جميع التنبؤات الإيجابية.",
+    "answer_en": "Precision is a metric that indicates the proportion of true positive predictions among all positive predictions."
+  },
+  {
+    "question_ar": ["ما هو Recall؟","اشرح Recall","يعني ايه Recall؟","عرف Recall"],
+    "question_en": ["What is Recall?","Explain Recall","Define Recall","Tell me about Recall"],
+    "answer_ar": "Recall هو مقياس يوضح نسبة التنبؤات الصحيحة الإيجابية من جميع الحالات الإيجابية الفعلية.",
+    "answer_en": "Recall is a metric that indicates the proportion of true positive predictions among all actual positive cases."
+  },
+  {
+    "question_ar": ["ما هو F1-Score؟","اشرح F1-Score","يعني ايه F1-Score؟","عرف F1-Score"],
+    "question_en": ["What is F1-Score?","Explain F1-Score","Define F1-Score","Tell me about F1-Score"],
+    "answer_ar": "F1-Score هو المتوسط التوافقي بين Precision وRecall لتقييم أداء النموذج بشكل متوازن.",
+    "answer_en": "F1-Score is the harmonic mean of Precision and Recall, providing a balanced evaluation of model performance."
+  },
+  {
+    "question_ar": ["ما هو Supervised Learning؟","اشرح Supervised Learning","يعني ايه Supervised Learning؟","عرف Supervised Learning"],
+    "question_en": ["What is Supervised Learning?","Explain Supervised Learning","Define Supervised Learning","Tell me about Supervised Learning"],
+    "answer_ar": "Supervised Learning هو نوع التعلم الآلي الذي يتعلم فيه النموذج من بيانات تحتوي على مدخلات ومخرجات معروفة.",
+    "answer_en": "Supervised Learning is a type of machine learning where the model learns from data with known inputs and outputs."
+  },
+  {
+    "question_ar": ["ما هو Unsupervised Learning؟","اشرح Unsupervised Learning","يعني ايه Unsupervised Learning؟","عرف Unsupervised Learning"],
+    "question_en": ["What is Unsupervised Learning?","Explain Unsupervised Learning","Define Unsupervised Learning","Tell me about Unsupervised Learning"],
+    "answer_ar": "Unsupervised Learning هو نوع التعلم الآلي الذي يتعلم فيه النموذج من بيانات بدون مخرجات معروفة ويبحث عن أنماط أو مجموعات.",
+    "answer_en": "Unsupervised Learning is a type of machine learning where the model learns from data without known outputs and looks for patterns or clusters."
+  },
+  {
+    "question_ar": ["ما هو Reinforcement Learning؟","اشرح Reinforcement Learning","يعني ايه Reinforcement Learning؟","عرف Reinforcement Learning"],
+    "question_en": ["What is Reinforcement Learning?","Explain Reinforcement Learning","Define Reinforcement Learning","Tell me about Reinforcement Learning"],
+    "answer_ar": "Reinforcement Learning هو نوع التعلم حيث يتعلم الوكيل اتخاذ قرارات للحصول على مكافأة قصوى من البيئة.",
+    "answer_en": "Reinforcement Learning is a type of learning where an agent learns to make decisions to maximize rewards from the environment."
+  },
+  {
+    "question_ar": ["ما هو Feature Selection؟","اشرح Feature Selection","يعني ايه Feature Selection؟","عرف Feature Selection"],
+    "question_en": ["What is Feature Selection?","Explain Feature Selection","Define Feature Selection","Tell me about Feature Selection"],
+    "answer_ar": "Feature Selection هو عملية اختيار أهم الميزات التي تؤثر على أداء النموذج.",
+    "answer_en": "Feature Selection is the process of selecting the most important features that affect model performance."
+  },
+  {
+    "question_ar": ["ما هو Cross Validation؟","اشرح Cross Validation","يعني ايه Cross Validation؟","عرف Cross Validation"],
+    "question_en": ["What is Cross Validation?","Explain Cross Validation","Define Cross Validation","Tell me about Cross Validation"],
+    "answer_ar": "Cross Validation هو أسلوب لتقييم أداء النموذج عن طريق تقسيم البيانات إلى مجموعات تدريب واختبار متعددة.",
+    "answer_en": "Cross Validation is a method to evaluate model performance by splitting data into multiple training and testing sets."
+  },
+  {
+    "question_ar": ["ما هو Bias؟","اشرح Bias","يعني ايه Bias؟","عرف Bias"],
+    "question_en": ["What is Bias?","Explain Bias","Define Bias","Tell me about Bias"],
+    "answer_ar": "Bias هو خطأ النظام الذي يحدث عندما يفترض النموذج تبسيطات غير صحيحة في البيانات.",
+    "answer_en": "Bias is the systematic error that occurs when a model makes incorrect assumptions about the data."
+  },
+  {
+    "question_ar": ["ما هو Variance؟","اشرح Variance","يعني ايه Variance؟","عرف Variance"],
+    "question_en": ["What is Variance?","Explain Variance","Define Variance","Tell me about Variance"],
+    "answer_ar": "Variance هو خطأ النظام الذي يحدث عندما يكون النموذج حساسًا جدًا للتقلبات في بيانات التدريب.",
+    "answer_en": "Variance is the error that occurs when a model is too sensitive to fluctuations in the training data."
+  }
+
+]
+
+
+

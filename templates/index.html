@@ -1,0 +1,28 @@
+<!-- 
+Main HTML interface for the Data Science Chatbot
+- Displays chat messages
+- Contains input box and send button
+- Loads external CSS (style.css) and JS (script.js)
+-->
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Science Chatbot</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="chat-wrapper">
+    <div class="chat-container">
+        <div id="chatbox" class="chatbox"></div>
+        <div class="input-area">
+            <input id="msg" placeholder="اكتب سؤالك عن علوم البيانات...">
+            <button onclick="send()">إرسال</button>
+        </div>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
